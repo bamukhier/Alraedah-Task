@@ -22,5 +22,6 @@ A better solution would be implementing a real-time bi-directional connection us
 the connection open as much as needed for both the server and the client. Another feature from FastAPI that could 
 be helpful in our usecase is `BackgroundTasks` which I encountered on [the official documentation](https://fastapi.tiangolo.com/tutorial/background-tasks/#using-backgroundtasks).
 
-The following diagram could illustrate one way we could use websockets and FastAPI's backgraound tasks in our usecase:
+The following diagram illustrates one way we could use websockets and FastAPI's backgraound tasks in our usecase:
+
 ![An illustration of how websockets and background tasks could work together](step-2.png)
