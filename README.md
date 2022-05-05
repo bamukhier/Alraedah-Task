@@ -1,8 +1,11 @@
-# Alraedah-Programming-Task
+# csv-api
+
+### Intro
+An API for processing CSV files. This was originally submitted for a job interview screening process.
 
 ### Running-The-Project
 - Clone the repo
-- Open the directory `Alraedah-Task` in the terminal
+- Open the directory `csv-api` in the terminal
 - Install all the requirements
 ```pip install -r requirements.txt```
 - Run the server
@@ -10,7 +13,7 @@
 
 ### Executing-Tests
 While the API server is running, do the following to execute the tests:
-- Open the directory `Alraedah-Task\app\tests` in a new terminal
+- Open the directory `csv-api\app\tests` in a new terminal
 - run the testing package 
 ```pytest -s```
 
